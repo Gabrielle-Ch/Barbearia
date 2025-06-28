@@ -1,0 +1,17 @@
+.btn-primary {
+  background-color: $cor-primaria;
+  border: none;
+
+  &:hover {
+    background-color: darken($cor-primaria, 10%);
+  }
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}

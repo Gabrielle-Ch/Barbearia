@@ -1,0 +1,53 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+header {
+  background-color: #212529;
+}
+header img {
+  max-height: 50px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: rgb(1.762295082, 87.2336065574, 213.237704918);
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    flex-direction: column;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
